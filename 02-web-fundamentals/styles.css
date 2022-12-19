@@ -22,6 +22,52 @@ header h1 {
   font-size: 40px;,
 }
 
+.row-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row-1-line-vt {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-line-vt {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.vt-left {
+  display: block;
+  border-left: 1px solid #000;
+  height: 125px;
+  margin-left: 110px;
+}
+
+.vt-right {
+  display: block;
+  border-left: 1px solid #000;
+  height: 125px;
+  margin-right: 110px;
+}
+
+.vt {
+  display: block;
+  border-left: 1px solid #000;
+  height: 125px;
+  margin-right: 300px;
+}
+
 .card {
   width: 300px;
   height: auto;
