@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F43268;
+}
+
+.flags {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  border: 1px solid green;
+}
+
+#german {
+  width: 500px;
+  height: 300px;
+}
+.flags > div > div {
+  height: 33.3%;
+  width: 100%;
+}
+
+#german > div:nth-child(1){
+  background-color: black;
+}
+
+#german > div:nth-child(2){
+  background-color: red;
+}
+
+#german > div:nth-child(3){
+  background-color: yellow;
+}
+
+#german:hover > div:nth-child(1){
+  background-color: red;
+}
+
+#german:hover > div:nth-child(2){
+  background-color: white;
+}
+
+#german:hover > div:nth-child(3){
+  background-color: green;
+}
+
+#french {
+  display: flex;
+  height: 300px;
+  width: 500px;
+}
+
+#french > div:nth-child(1){
+  height: 100%;
+  background-color: blue;
+}
+
+#french > div:nth-child(2){
+  height: 100%;
+  background-color: white;
+}
+
+#french > div:nth-child(3){
+  height: 100%;
+  background-color: red;
+}
+
+
+#french:hover > div:nth-child(1){
+  background-color: #0D9C62;
+}
+
+#french:hover > div:nth-child(2){
+  background-color: white;
+}
+
+#french:hover > div:nth-child(3){
+  background-color: #FF893C;
+}
