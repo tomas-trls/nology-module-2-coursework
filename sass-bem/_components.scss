@@ -41,3 +41,79 @@ div {
       margin: 0 auto;
     }
   }
+
+form {
+  height: 300px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid $color-black;
+  background-color: $color-grey;
+
+  .form__div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form__label {
+    font-family: $font-body;
+    font-size: 25px;
+  }
+
+  .form__input {
+    margin-top: 5px;
+    padding: 10px 10px;
+    width: 300px;
+  }
+
+  .form__submit {
+    background-color: $color-blue;
+    border: 1px solid $color-primary;
+    color: $color-white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 16px;
+  }
+}
+
+section {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-family: $font-display;
+    font-size: 25px;
+  }
+
+  .section__link {
+    margin: 5px 0;
+    display: block;
+    width: 100px;
+    background-color: $color-white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-primary;
+    border: 1px solid $color-primary;
+  }
+}
+
+
+footer {
+  height: 10vh;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    p{
+      margin: 0;
+      color: $color-white;
+    }
+}
